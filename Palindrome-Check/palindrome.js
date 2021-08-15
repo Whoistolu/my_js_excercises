@@ -1,6 +1,5 @@
 function palindrome(str) {
-    /*Using regex*/
-    /**Will complete this exercise tomorrow*/
+    let smallStr = str.toLowerCase().replace(reg, "");
 
     let reversed = str.split("").reversed().join("");
     if (reversed === str) return true;
