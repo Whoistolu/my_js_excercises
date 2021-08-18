@@ -8,4 +8,4 @@ function palindrome(str) {
     return false;
 }
 
-palindrome("racecars9*_");
+palindrome("racecars9");
