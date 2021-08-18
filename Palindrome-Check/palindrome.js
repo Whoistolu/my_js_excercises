@@ -1,4 +1,5 @@
 function palindrome(str) {
+    let reg = /[\W_]/g;
     let smallStr = str.toLowerCase().replace(reg, "");
 
     let reversed = str.split("").reversed().join("");
@@ -7,4 +8,4 @@ function palindrome(str) {
     return false;
 }
 
-palindrome("racecars");
+palindrome("racecars9");
